@@ -5,8 +5,8 @@
   --secondary-color: #273746;
   --light-gray-color: #ddd;
   --white-color: #fff;
-  --greent-color: #423693;
-  --brown-color: #917db8;
+  --purple-color: #423693;
+  --purple_light-color: #917db8;
 }
 
 html {
@@ -23,7 +23,7 @@ html {
   background: var(--secondary-color);
   color: var(--light-gray-color);
   padding: 0.5rem;
-  border-left: 7px var(--brown-color) solid;
+  border-left: 7px var(--purple_light-color) solid;
 }
 
 img {
@@ -226,7 +226,7 @@ button {
 
 .m_details .year {
   color: var(--white-color);
-  background: var(--greent-color);
+  background: var(--purple-color);
   padding: 0.5rem;
   border-radius: 20px;
 }
@@ -236,7 +236,7 @@ button {
   outline: none;
   border: none;
   margin: 2rem 1rem;
-  background: var(--brown-color);
+  background: var(--purple_light-color);
   color: var(--white-color);
   font-family: inherit;
   font-size: 1rem;
@@ -292,7 +292,7 @@ button {
 .short-des {
   display: flex;
   justify-content: space-between;
-  background: var(--brown-color);
+  background: var(--purple_light-color);
   color: var(--white-color);
   margin-top: 1rem;
   font-weight: 600;
@@ -343,5 +343,5 @@ button {
 }
 
 a {
-  color: var(--brown-color);
+  color: var(--purple_light-color);
 }
