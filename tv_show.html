@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <script defer src="js/main.js"></script>
+    <script defer src="js/script.js"></script>
+    <title>Movie Minder</title>
+  </head>
+  <body>
+    <div class="menus">
+      <div class="container">
+        <nav>
+          <a href="index.html">
+            <div class="logo">
+              <img src="img/logo.png" alt="" />
+              
+            </div>
+          </a>
+          <form id="form">
+            <input type="text" placeholder="Rechercher" id="search" />
+          </form>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.html">Films</a></li>
+            <li><a href="#tv_shows">Séries</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <header>
+      <div class="slider-container">
+        <div
+          class="slide active"
+          style="background-image: url('./img/tvshow-1.jpg')"
+        >
+          <div class="slider-content active">
+            <h2 class="movies-title">Breaking Bad</h2>
+            <p class="movies_short_details">
+              A chemistry teacher diagnosed with inoperable lung cancer turns to
+              manufacturing and selling methamphetamine with a former student in
+              order to secure his family's future.
+            </p>
+            <div class="m_details">
+              <p class="category">Crime</p>
+              <p class="category">Drame</p>
+              <p class="category">Policier</p>
+              <p class="year">2023</p>
+            </div>
+            <button type="button">
+              <i class="fas fa-circle-play"></i>Regarder
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="slide active"
+          style="background-image: url('./img/tvshow-2.jpg')"
+        >
+          <div class="slider-content">
+            <h2 class="movies-title">Extraordinary Attorney</h2>
+            <p class="movies_short_details">
+              Due to her 164 I.Q., impressive memory and creative thought
+              process, autistic 27-year-old lawyer Woo Young Woo graduated at
+              the top of her class from a prestigious law school.
+            </p>
+            <div class="m_details">
+              <p class="category">Action</p>
+              <p class="category">Crime</p>
+              <p class="category">Trhiller</p>
+              <p class="year">2023</p>
+            </div>
+            <button type="button">
+              <i class="fas fa-circle-play"></i>Regarder
+            </button>
+          </div>
+        </div>
+        <div
+          class="slide active"
+          style="background-image: url('./img/tvshow-3.jpg')"
+        >
+          <div class="slider-content">
+            <h2 class="movies-title">Aspirants</h2>
+            <p class="movies_short_details">
+              It is the story of the journey of three UPSC (public service
+              competitive exams in India) aspirants and their friendship against
+              all odds.
+            </p>
+            <div class="m_details">
+              <p class="category">Action</p>
+              <p class="category">Drame</p>
+              <p class="category">Trhiller</p>
+              <p class="year">2023</p>
+            </div>
+            <button type="button">
+              <i class="fas fa-circle-play"></i>Regarder
+            </button>
+          </div>
+        </div>
+        <div
+          class="slide active"
+          style="background-image: url('./img/tvshow-4.jpg')"
+        >
+          <div class="slider-content">
+            <h2 class="movies-title">Crash Landing on You</h2>
+            <p class="movies_short_details">
+              The absolute top secret love story of a chaebol heiress who made
+              an emergency landing in North Korea because of a paragliding
+              accident and a North Korean special officer who falls in love with
+              her and who is hiding and protecting her.
+            </p>
+            <div class="m_details">
+              <p class="category">Aventure</p>
+              <p class="category">Drame</p>
+              <p class="category">Romance</p>
+              <p class="year">2023</p>
+            </div>
+            <button type="button">
+              <i class="fas fa-circle-play"></i>Regarder
+            </button>
+          </div>
+        </div>
+
+        <button class="arrow left-arrow" id="left">
+          <i class="fas fa-arrow-left"></i>
+        </button>
+        <button class="arrow right-arrow" id="right">
+          <i class="fas fa-arrow-right"></i>
+        </button>
+      </div>
+    </header>
+
+    <!-- movies list -->
+    <div class="movies-content" id="tv_shows">
+      <div class="container">
+        <h2 class="label">TV Shows</h2>
+        <div class="Tv-details">
+          <!-- <div class="tvShows">
+            <img src="./img/img1.jpg" alt="" />
+            <p class="movie-title">The Transporter</p>
+            <div class="short-des">
+              <p class="year">2019</p>
+              <p class="rating">0.9</p>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+
+    <!-- pagination -->
+    <div class="container">
+      <div class="paginations">
+        <ul>
+          <li>Previous</li>
+          <li>1</li>
+          <li>2</li>
+          <li>3</li>
+          <li>4</li>
+          <li>5</li>
+          <li>6</li>
+          <li>7</li>
+          <li>8</li>
+          <li>9</li>
+          <li>Next</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
