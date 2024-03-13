@@ -71,3 +71,4 @@ setInterval(() => {
   setActiveSlide();
   setContent();
 }, 7000);
+

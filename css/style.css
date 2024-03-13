@@ -39,7 +39,7 @@ img {
   padding: 0 1rem;
 }
 
-/* ======================menus start======================= */
+
 .menus {
   position: fixed;
   top: 0;
@@ -88,7 +88,7 @@ nav ul li a {
   font-family: inherit;
   background: var(--light-gray-color);
 }
-/* ======================menus close======================= */
+
 
 header {
   display: flex;
@@ -345,3 +345,5 @@ button {
 a {
   color: var(--purple_light-color);
 }
+
+
